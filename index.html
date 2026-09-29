@@ -235,7 +235,7 @@
                 iva: tarifaIvaVal
               };
             })
-            // Filtro estricto exclusivo para Aguachica y B2B Aguachica
+            // Filtro estricto exclusivo para AGUACHICA y B2B AGUACHICA
             .filter(item => BODEGAS_PERMITIDAS.some(b => b.toLowerCase() === item.sede.toLowerCase()));
 
           populateSelectOptions();
